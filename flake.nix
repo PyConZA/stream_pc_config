@@ -1,5 +1,5 @@
 {
-  description = "Example nix-darwin system flake";
+  description = "PyConZA Video PC nix-darwin system flake";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
@@ -35,8 +35,8 @@
   in
   {
     # Build darwin flake using:
-    # $ darwin-rebuild build --flake .#simple
-    darwinConfigurations."simple" = nix-darwin.lib.darwinSystem {
+    # $ darwin-rebuild build --flake .#steam-pc
+    darwinConfigurations."steam-pc" = nix-darwin.lib.darwinSystem {
       modules = [ configuration ];
     };
   };
