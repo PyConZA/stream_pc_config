@@ -61,6 +61,9 @@
         ];
       };
 
+      power.sleep.computer = "never";
+      power.sleep.display = "never";
+
       homebrew = {
         enable = true;
         casks = [
