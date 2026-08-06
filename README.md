@@ -9,3 +9,4 @@ Nix and other configuration files for PyConZA Stream PCs
 4. Move pre-existing managed config files that will cause nix-darwin to abort installation:
   1. `sudo mv /etc/bashrc /etc/bashrc.before-nix-darwin && sudo mv /etc/zshrc /etc/zshrc.before-nix-darwin`
 5. Install nix-darwin: `sudo nix run nix-darwin --extra-experimental-features "nix-command flakes" -- switch --flake ~/stream_pc_config#stream-pc`
+6. Configure system: `sudo darwin-rebuild switch --flake ~/stream_pc_config#stream-pc`

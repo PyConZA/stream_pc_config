@@ -47,7 +47,7 @@
         enable = true;
         casks = [
           "obs"
-        ]
+        ];
       };
     };
   in
