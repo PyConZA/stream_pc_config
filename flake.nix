@@ -54,7 +54,7 @@
             app = "/Applications/Safari.app";
           }
           {
-            app = "/Applications/Utilities/Terminal.app";
+            app = "/System/Applications/Utilities/Terminal.app";
           }
         ];
       };
