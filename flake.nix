@@ -43,6 +43,8 @@
 
       nixpkgs.config.allowUnfree = true;
 
+      system.primaryUser = "streamer";
+
       homebrew = {
         enable = true;
         casks = [
