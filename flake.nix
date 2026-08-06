@@ -46,7 +46,7 @@
       system.primaryUser = "streamer";
       system.defaults = {
         dock.autohide = true;
-        NSGlobalDomain."com.apple.sound.beep.volume" = 0;
+        NSGlobalDomain."com.apple.sound.beep.volume" = 0.0;
         NSGlobalDomain."com.apple.swipescrolldirection" = false;
         dock.persistent-apps = [
           {
