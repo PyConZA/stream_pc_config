@@ -3,7 +3,7 @@ Nix and other configuration files for PyConZA Stream PCs
 
 ## Setup new mac
 1. Make sure that your user name is **streamer**
-2. Install nix with `curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install | sh`
+2. Install nix with `curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install | sh`, which should be the same as the officially documented installation method.
 3. Clone this config repo when in the home directory with `git clone https://github.com/PyConZA/stream_pc_config.git`
   1. Allow developer tools to be installed in order to use git.
 4. Move pre-existing managed config files that will cause nix-darwin to abort installation:
