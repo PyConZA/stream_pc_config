@@ -44,12 +44,28 @@
       nixpkgs.config.allowUnfree = true;
 
       system.primaryUser = "streamer";
+      system.defaults = {
+        dock.autohide = true;
+        dock.persistent-apps = [
+          {
+            app = "/Applications/OBS.app";
+          }
+          {
+            app = "/Applications/Safari.app";
+          }
+          {
+            app = "/Applications/Utilities/Terminal.app";
+          }
+        ];
+      };
 
       homebrew = {
         enable = true;
         casks = [
           "obs"
         ];
+        onActivation.autoUpdate = true;
+        onActivation.upgrade = true;
       };
     };
   in
