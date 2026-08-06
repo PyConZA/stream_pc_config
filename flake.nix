@@ -36,7 +36,7 @@
   {
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#steam-pc
-    darwinConfigurations."steam-pc" = nix-darwin.lib.darwinSystem {
+    darwinConfigurations."stream-pc" = nix-darwin.lib.darwinSystem {
       modules = [ configuration ];
     };
   };
