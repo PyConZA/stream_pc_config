@@ -10,4 +10,5 @@ Nix and other configuration files for PyConZA Stream PCs
   1. First restart shell if you haven't already to make sure nix is working.
   2. `sudo mv /etc/bashrc /etc/bashrc.before-nix-darwin && sudo mv /etc/zshrc /etc/zshrc.before-nix-darwin`
 5. Install nix-darwin: `sudo nix run nix-darwin --extra-experimental-features "nix-command flakes" -- switch --flake ~/stream_pc_config#stream-pc`
-6. Configure system: `sudo darwin-rebuild switch --flake ~/stream_pc_config#stream-pc`
+6. Restart the shell to get `darwin-rebuild` command to work
+7. To update the system after changes to the flake, use: `sudo darwin-rebuild switch --flake ~/stream_pc_config#stream-pc`
