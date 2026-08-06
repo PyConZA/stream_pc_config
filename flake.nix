@@ -65,6 +65,7 @@
         enable = true;
         casks = [
           "obs"
+          "discord"
         ];
         onActivation.autoUpdate = true;
         onActivation.upgrade = true;
