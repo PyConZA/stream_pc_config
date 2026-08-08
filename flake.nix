@@ -73,7 +73,8 @@
         casks = [
           "obs"
           "discord"
-          "soundsource"
+          "audio-hijack"
+          "loopback"
         ];
         onActivation.autoUpdate = true;
         onActivation.upgrade = true;
