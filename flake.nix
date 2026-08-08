@@ -53,6 +53,9 @@
             app = "/Applications/OBS.app";
           }
           {
+            app = "Applications/Discord.app";
+          }
+          {
             app = "/Applications/Safari.app";
           }
           {
@@ -63,6 +66,7 @@
 
       power.sleep.computer = "never";
       power.sleep.display = "never";
+      system.defaults.loginwindow.autoLoginUser = "streamer";
 
       homebrew = {
         enable = true;
