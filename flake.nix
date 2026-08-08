@@ -73,6 +73,7 @@
         casks = [
           "obs"
           "discord"
+          "soundsource"
         ];
         onActivation.autoUpdate = true;
         onActivation.upgrade = true;
