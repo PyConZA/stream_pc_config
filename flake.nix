@@ -73,6 +73,7 @@
         casks = [
           "obs"
           "discord"
+          "soundsource"
           "audio-hijack"
           "loopback"
         ];
