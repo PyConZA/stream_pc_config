@@ -67,6 +67,8 @@
       power.sleep.computer = "never";
       power.sleep.display = "never";
       system.defaults.loginwindow.autoLoginUser = "streamer";
+      system.defaults.WindowManager.EnableStandardClickToShowDesktop = false;
+      system.startup.chime = false;
 
       homebrew = {
         enable = true;
