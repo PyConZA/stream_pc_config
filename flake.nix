@@ -53,7 +53,13 @@
             app = "/Applications/OBS.app";
           }
           {
+            app = "Applications/Audio Hijack.app";
+          }
+          {
             app = "Applications/Discord.app";
+          }
+          {
+            app = "Applications/Loopback.app";
           }
           {
             app = "/Applications/Safari.app";
