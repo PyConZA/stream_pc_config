@@ -74,7 +74,7 @@
           "obs"
           "discord"
           "audio-hijack"
-          "blackhole-2ch"
+          "loopback"
         ];
         onActivation.autoUpdate = true;
         onActivation.upgrade = true;
