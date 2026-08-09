@@ -15,3 +15,4 @@ Nix and other configuration files for PyConZA Stream PCs
 
 ## Extra steps
 1. Install `AudioControlBar` the old fashioned way (double click, drag and drop)
+   1. Start it and in its settings, enable launch at login.
