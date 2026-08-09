@@ -83,6 +83,7 @@
           "discord"
           "audio-hijack"
           "loopback"
+          "Vorssaint"
         ];
         onActivation.autoUpdate = true;
         onActivation.upgrade = true;
