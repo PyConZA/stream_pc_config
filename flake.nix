@@ -92,6 +92,10 @@
         onActivation.autoUpdate = true;
         onActivation.upgrade = true;
         onActivation.cleanup = "uninstall";
+
+        environment.variables = {
+          HOMEBREW_NO_INSTALL_FROM_API = "1";
+        };
       };
     };
   in
