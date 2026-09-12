@@ -45,9 +45,7 @@
 
       system.primaryUser = "streamer";
       system.defaults = {
-        ".GlobalPreferences" = {
-          "com.apple.mouse.scaling" = -1.0;
-        };
+        CustomSystemPreferences.NSGlobalDomain."com.apple.mouse.linear" = true;
         dock.autohide = false;
         loginwindow.autoLoginUser = "streamer";
         WindowManager.EnableStandardClickToShowDesktop = false;
