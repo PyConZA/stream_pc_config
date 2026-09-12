@@ -45,7 +45,12 @@
 
       system.primaryUser = "streamer";
       system.defaults = {
+        ".GlobalPreferences" = {
+          "com.apple.mouse.scaling" = -1.0;
+        };
         dock.autohide = false;
+        loginwindow.autoLoginUser = "streamer";
+        WindowManager.EnableStandardClickToShowDesktop = false;
         NSGlobalDomain."com.apple.sound.beep.volume" = 0.0;
         NSGlobalDomain."com.apple.swipescrolldirection" = false;
         dock.persistent-apps = [
@@ -72,8 +77,6 @@
 
       power.sleep.computer = "never";
       power.sleep.display = "never";
-      system.defaults.loginwindow.autoLoginUser = "streamer";
-      system.defaults.WindowManager.EnableStandardClickToShowDesktop = false;
       system.startup.chime = false;
 
       homebrew = {
