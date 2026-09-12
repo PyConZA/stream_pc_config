@@ -80,7 +80,7 @@
       homebrew = {
         enable = true;
         brews = [
-          "python@3.12,"
+          "python@3.12"
         ];
         casks = [
           "obs"
