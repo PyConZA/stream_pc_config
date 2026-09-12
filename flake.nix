@@ -23,6 +23,7 @@
       # $ nix-env -qaP | grep wget
       environment.systemPackages =
         [ 
+          pkgs.python312
         ];
 
       # Necessary for using flakes on this system.
@@ -79,9 +80,6 @@
 
       homebrew = {
         enable = true;
-        brews = [
-          "python@3.12"
-        ];
         casks = [
           "obs"
           "discord"
