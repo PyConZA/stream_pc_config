@@ -76,6 +76,9 @@
       power.sleep.display = "never";
       system.startup.chime = false;
 
+      environment.variables = {
+        HOMEBREW_NO_INSTALL_FROM_API = "1";
+      };
 
       homebrew = {
         enable = true;
@@ -93,9 +96,6 @@
         onActivation.upgrade = true;
         onActivation.cleanup = "uninstall";
 
-        environment.variables = {
-          HOMEBREW_NO_INSTALL_FROM_API = "1";
-        };
       };
     };
   in
