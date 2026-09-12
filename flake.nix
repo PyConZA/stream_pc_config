@@ -45,7 +45,6 @@
 
       system.primaryUser = "streamer";
       system.defaults = {
-        CustomUserPreferences.NSGlobalDomain."com.apple.mouse.linear" = true;
         dock.autohide = false;
         loginwindow.autoLoginUser = "streamer";
         WindowManager.EnableStandardClickToShowDesktop = false;
@@ -72,10 +71,11 @@
           }
         ];
       };
-
       power.sleep.computer = "never";
       power.sleep.display = "never";
       system.startup.chime = false;
+
+      CustomUserPreferences.NSGlobalDomain."com.apple.mouse.linear" = true;
 
       homebrew = {
         enable = true;
