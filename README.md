@@ -30,4 +30,8 @@ You may also want to adjust sync delay to match the camera delay.
 ## Setting up OBS
 
 1. In OBS -> Preferences -> General -> Projectors enable `Limit to one full-screen projector per screen`1
-2. Use the following path to link Python to OBS: `/opt/homebrew/Cellar/python@3.11/3.11.16/Frameworks/` or similar, depending on version.
+2. Import the profile and scene collection that is in `obs`.
+3. Open Scripts -> Python Settings and use the following path to link Python to OBS: `/opt/homebrew/Cellar/python@3.11/3.11.16/Frameworks/` or similar, depending on version.
+4. Open Scripts, and load the script `obs/project_mapped_scene.py` and configure the mapped scenes to be something like so:
+   1. Scenes[Upcoming, Laptop and Camera, Laptop ONly, Camera Only, Remote Talk, Finish]
+   2. Mapped projector Scenes[Upcoming, Laptop Only, Laptop Only, Laptop Only, Remote Talk, Finish]
